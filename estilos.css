@@ -748,9 +748,13 @@ body {
     transform: scale(1.1);
     background: rgba(62, 39, 35, 0.2);
   }
+
+
   .col.last {
     text-align: center;
   }
+
+
 .featured-content {
   flex-direction: column;
   text-align: center;
@@ -766,6 +770,7 @@ body {
 
 .featured-text {
   align-items: center;
+  text-align: center;
 }
 
 .featured-text p {
@@ -774,6 +779,37 @@ body {
 
 .featured-image img {
   margin-top: 10px;
+}
+
+.featured-profile,
+.cta-featured {
+  display: none;
+}
+
+
+
+.featured-text h3 {
+  width: 100%;
+  text-align: left;
+}
+
+.featured-text {
+  align-items: flex-end;
+}
+
+.main-img {
+  width: 100%;
+}
+
+.mini-gallery {
+  width: 100%;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+.mini-gallery img:active {
+  transform: scale(0.97);
+  opacity: 0.8;
 }
 
 }
